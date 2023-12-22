@@ -1,0 +1,70 @@
+
+
+#logo{
+    width: 100px;
+    color: white;
+}
+
+p {
+    color: blueviolet;
+}
+
+
+
+article{
+    background-color: green;
+}
+
+header{
+    background-color: gray;
+}
+
+footer{
+    background-color: cadetblue;
+}
+
+.large_header{
+
+    font-size: 100px;
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+footer p, header a{
+    color: black;
+    font-weight: bold;
+}
+
+#Services-Wrapper div {
+    width: 400px;
+}
+
+#Services-Wrapper img{
+    width: 100%;
+}
+
+#Services-Wrapper, ul, header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Services-Wrapper{
+    justify-content: space-evenly;
+}
+
+#header{
+    justify-content: center;
+}
+
+#Services-Wrapper{
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    gap: 50px;
+}
